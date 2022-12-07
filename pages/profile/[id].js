@@ -4,7 +4,7 @@ function Profile({produto={}}){
     return(
         <div key={produto.id}>
             <p>ID do produto: "{produto.id}"</p>
-            {/* <img>{produto.image}</img> */}
+            <img src={produto.image}></img>
             <p>{produto.title}</p>
             <p>{produto.price}</p>
             <p>{produto.description}</p>
