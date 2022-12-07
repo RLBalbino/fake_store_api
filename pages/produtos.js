@@ -8,7 +8,7 @@ return(
         <h1>Produtos da loja</h1>
         {produtos.map((produto)=>(
             <div>
-                <Link href='/profile/[id].js'as={`profile/${produto.id}.js`}>
+                <Link href='/profile/[id]'as={`profile/${produto.id}`}>
                 {produto.title}
                 </Link>
                 </div>
