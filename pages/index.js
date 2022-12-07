@@ -5,10 +5,11 @@ import axios from "axios";
 export default function Home(){
   return(
     <div className={styles.container}>
+      <title>Loja App</title>
       <Head>
-        <title>Loja App</title>
+         <h1>Veja nossos produtos</h1>
       </Head>
-      <a href="\produtos"><h1>Produtos da Loja</h1></a>
+      <a href="\produtos"><h3>Produtos da Loja</h3></a>
     </div>
   )
 }
