@@ -9,7 +9,7 @@ export default function Home(){
       <Head>
          <h1>Veja nossos produtos</h1>
       </Head>
-      <a href="\produtos"><h3>Produtos da Loja</h3></a>
+      <a href="\produtos"><h3> Clique aqui e  veja nossos produtos da Loja</h3></a>
     </div>
   )
 }
